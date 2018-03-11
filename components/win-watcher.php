@@ -12,7 +12,7 @@
 
 include "../config.php";
 include $basePath . $includesDir.'database.php';
-include $basePath . $componentsDir . 'slack.php';
+include $basePath . $includesDir . 'slack.php';
 
 function getSoloWinsPSN($epicname){
   global $conn;

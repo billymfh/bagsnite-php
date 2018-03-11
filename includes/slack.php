@@ -13,7 +13,7 @@ function slackNotify($slackname, $playername){
 
 	$settings = [
 		'username' 			=> 'Fortnite.wang',
-		'channel' 			=> '#dev-fireteam',
+		'channel' 			=> '#fortnite',
 		'link_names' 		=> true,
   	'unfurl_links' 	=> true,
 		'unfurl_media'	=> true

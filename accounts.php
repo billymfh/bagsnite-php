@@ -27,7 +27,7 @@
 
 <?php
 include "config.php";
-include $includesDir . "database.php";
+include $basePath . $includesDir . "database.php";
 
 session_start();
 
