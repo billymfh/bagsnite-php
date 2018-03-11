@@ -1,0 +1,19 @@
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive Files #
+.remote-sync.json
+config.php
+client_secret.json
+BUILDNOTES
