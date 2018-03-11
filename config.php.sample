@@ -1,0 +1,33 @@
+<?php
+# This is the basic earlgreyders config file
+# Use this for all config variables until a better system can be implemented
+
+// base system config
+$basePath       = "/FULL/PATH/TO/WEB/ROOT/"; // full path, trailing slash!
+
+// do you want debugging messages enabled? "false" for production!
+$debugEnable    = "true"; // true/false
+
+// redirect URL, this needs to be configured in your google dashboard- yoursite.com/oauth.php
+$google_redirect_url = 'https://yoursite.com/oauth.php';
+
+// services config
+// tracker network, will need a key for fornite, https://fortnitetracker.com/site-api
+$trnFortniteKey = "YOUR-KEY-HERE";
+$trnWriteFile   = "false"; // true/false shouldn't write file under normal circumstances. this requires ./tmp to be writable
+$trnInterval    = "4"; //the interval between api calls, TRN allows for 2, but maybe go a little slower
+
+// mysql config
+$mysqlServer    = "localhost"; // mysql server address
+$mysqlUser      = "user"; // mysql username
+$mysqlPassword  = "password"; //mysql password
+$mysqlDatabase  = "database"; // your mysql database
+
+// probably shouldn't change these - always use a trailing slash!
+$includesDir    = "./includes/";
+$componentsDir  = "./components/";
+$themesDir      = "./themes/";
+$stylesDir      = "./styles/";
+$templatesDir   = "./templates/";
+
+?>

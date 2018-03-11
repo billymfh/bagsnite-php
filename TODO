@@ -1,0 +1,2 @@
+There is potentially a condition in win-watcher where if someone manages to get more than one win between checks it won't report the win.
+The "daemon" scripts are wonky under ubuntu 16.04, need to either fix or develop a better solution
