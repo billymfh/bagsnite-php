@@ -17,3 +17,6 @@ Thumbs.db
 config.php
 client_secret.json
 BUILDNOTES
+
+# Skip composer stuff
+vendor/
